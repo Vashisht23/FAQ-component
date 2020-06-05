@@ -1,86 +1,95 @@
 body{
-    font-family: "Tahoma", sans-serif;
+    background-color:   #f7f7f7;
+    margin: 0 auto;
+    /* height: auto; */
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    
     text-align: center;
-    /* color: #fff; */
-    color: #888888;
-}
+           /* important */
 
+    color: #4a5568;
+  }
+  
+  
+  * {
+      box-sizing: border-box;
+  } 
 
-.col{
+ 
+
+  .box-label{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #202040;  }
+
+.faq-1{
     padding: 35px;
-    box-sizing: border-box;
+}
+
+.faq-2{
+    width: 600px;
+    border: #1a202c 1px solid;
+    border-radius: 10px;
     display: flex;
-    flex-wrap: wrap;
-
+    align-items: center;
+   
 }
 
-.card-1{
+#box-1 , #box-2{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+
+#box-1 ul li , #box-2 ul li  {
     
-    /* display: flex; */
-    background: #f7f7f7;
-    color:#888888;
-    /* margin: 0; */
-    /* padding: 0; */
-    border: 1px solid #555;
-    list-style-type: none;
-    margin-right: 100px;
-    margin-left: 20px;
-    margin-bottom: 25px;
-    height: 500px;
-    width: 480px;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+
+#box-1 a , #box-2 a  {
     
-
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/transition */
-    transition: .3s;
+    text-decoration: none;
+    color: #1a202c;
+    font-size: 16px;
 }
 
-.card-2{
-    background: #f7f7f7;
-    color:#888888;
-    border: 1px solid #555;
-    list-style-type: none;
-    /* margin-right: 60px; */
+  #box-1 a:hover , #box-2 a:hover {
+color: #888888;
+
+}
+
+.Q-label{
     margin-bottom: 25px;
-    height: 500px;
-    width: 480px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #202040;  
+}
+
+
+.section-head{
+    background: #f6e05e;
+    width: 75%;
+    font-size: large;
+    border-radius: 15px;
+     text-transform: uppercase;
+     letter-spacing: .025em;
+     font-weight: 600;
+     margin-top: 45px;
+     color: #202040;
+}
+
+.faq-3 a{
+    color: #4a5568;
+    font-size: 20px;
+    text-decoration: none;
     
-
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/transition */
-    transition: .3s;
 }
 
-
-.card-3{
-    background: #f7f7f7;
-    color:#888888;
-    border: 1px solid #555;
-    list-style-type: none;
-    margin-right: 100px;
-    margin-bottom: 25px;
-    margin-top: 60px;
-    margin-left: 50px;
-
-    height: 550px;
-    width: 480px;
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/transition */
-    transition: .3s;
+a:hover{
+    font-size: 25px;
+    color: #1a202c;
 }
 
-
-.card-4{
-    background: #f7f7f7;
-    color:#888888;
-    border: 1px solid #555;
-    list-style-type: none;
-    margin-right: 60px;
-    margin-top: 60px;
-    margin-bottom: 25px;
-    height: 550px;
-
-    width: 480px;
-    /* https://developer.mozilla.org/en-US/docs/Web/CSS/transition */
-    transition: .3s;
-}
-.card-1:hover , .card-3:hover, .card-2:hover, .card-4:hover{
-    box-shadow: 0 10px 15px 0 #888888;
-}
+ 

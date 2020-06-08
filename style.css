@@ -18,16 +18,17 @@ body{
  
 
   .box-label{
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
-    color: #202040;  }
+    color: #202040;  
+}
 
 .faq-1{
     padding: 35px;
 }
 
 .faq-2{
-    width: 600px;
+    width: 550px;
     border: #1a202c 1px solid;
     border-radius: 10px;
     display: flex;
@@ -35,33 +36,51 @@ body{
    
 }
 
-#box-1 , #box-2{
-    padding-left: 35px;
-    padding-right: 35px;
+
+.faq-4{
+    width: 380px;
+    border: #1a202c 1px solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    /* margin-top: 35px; */
+   
 }
 
 
-#box-1 ul li , #box-2 ul li  {
+
+#box-1 ul li , #box-2 ul li, #box-3 ul li  {
     
     list-style: none;
     margin-bottom: 5px;
 }
 
 
-#box-1 a , #box-2 a  {
+#box-1 a , #box-2 a , #box-3 a  {
     
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #1a202c;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
-  #box-1 a:hover , #box-2 a:hover {
+
+
+  #box-1 a:hover , #box-2 a:hover, #box-3 a:hover {
 color: #888888;
 
 }
 
+
+.Q-label-1{
+    /* margin-bottom: 50px; */
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #202040;  
+}
+
 .Q-label{
-    margin-bottom: 25px;
+    margin-top: 50px;
     font-size: 30px;
     text-transform: uppercase;
     color: #202040;  
@@ -83,7 +102,8 @@ color: #888888;
 .faq-3 a{
     color: #4a5568;
     font-size: 20px;
-    text-decoration: none;
+    /* text-decoration: none; */
+    font-weight: 700;
     
 }
 
